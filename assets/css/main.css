@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+h2, nav
+{
+    font-family: 'Salsa', cursive;
+}
+
 .container
 {
     display: grid;
@@ -15,14 +20,15 @@
 .content
 {
     padding-top: 5px;
-    border: 1px solid black;
     margin: 0;
 }
 
-/* .SAP
+.content2
 {
-    width: 75%;
-} */
+    padding-top: 5px;
+    margin: 0;
+    width: 50%;
+}
 
 .imgCard
 {
