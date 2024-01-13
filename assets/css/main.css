@@ -17,7 +17,7 @@ h2, nav
     margin-bottom: 3%;
 }
 
-.content
+.content, .row
 {
     padding-top: 5px;
     margin: 0;
@@ -27,7 +27,7 @@ h2, nav
 {
     padding-top: 5px;
     margin: 0;
-    width: 50%;
+    width: 75%;
 }
 
 .imgCard
@@ -36,3 +36,4 @@ h2, nav
     height: 270px;
     object-fit: contain;
 }
+
