@@ -1,4 +1,4 @@
-/* body
+/* /* body
 {
     background-image: url(/assets/img/fondo.avif);
 } */
@@ -7,6 +7,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h2, nav, h3
@@ -22,10 +27,44 @@ h2, nav, h3
     margin-bottom: 3%;
 }
 
-.content, .row
+.content {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* .content, .row
 {
     padding-top: 5px;
     margin: 0;
+} */
+
+
+.card {
+    width: 360px;
+    height: 500px;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.197);
+}
+
+.card:hover .imgCard {
+    transform: scale(1.03);
+}
+
+.card__others {
+    border: 1px solid #1047d2;
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .content2
@@ -47,11 +86,10 @@ h2, nav, h3
     width: 100%;
     height: 270px;
     object-fit: contain;
+    transition: transform .5s ease;
+
 }
 .imglz
 {
     width: 13%;   
-}
-
-
-
+} */
